@@ -1,0 +1,15 @@
+<html>
+    <head><title>Hello World!</title></head>
+    <body>
+        <p > Hi Hello !!</p>
+        <button id="btn1" onclick="fn_onClick()"> Click Me</button>
+        
+        <script>
+            var cnt =0;
+            function fn_onClick(){
+                console.log("inside onClick()...");
+                document.getElementById("btn1").innerHTML = "WORLD "+cnt++;
+            }
+        </script>
+    </body>
+</html>
